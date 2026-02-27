@@ -44,7 +44,7 @@ export default function SitePage() {
           buttonAnimation="slide-up" 
           avatars={[{"src":"http://img.b2bpic.net/free-photo/multiracial-group-people-discussing-business-office_1268-21455.jpg","alt":"Member avatar"},{"src":"http://img.b2bpic.net/free-photo/group-young-people-casual-clothes-working-modern-office_146671-16433.jpg","alt":"Member avatar"},{"src":"http://img.b2bpic.net/free-photo/people-working-together-animation-studio_23-2149208003.jpg","alt":"Member avatar"}]} 
           avatarText="150+ Members" 
-          imageSrc="http://img.b2bpic.net/free-photo/business-leader-professional-office-strategizing-development-success_482257-124038.jpg" 
+          imageSrc="http://img.b2bpic.net/free-vector/modern-scientific-technology-banner_1055-8059.jpg" 
           imageAlt="Tech club members collaborating" 
           mediaAnimation="slide-up" 
           marqueeItems={[{type: 'text-icon', text:"Hackathons", icon:Code}, {type: 'text-icon', text:"Workshops", icon:BookOpen}, {type: 'text-icon', text:"Mentorship", icon:UserCheck}, {type: 'text-icon', text:"Projects", icon:Layers}]} 
