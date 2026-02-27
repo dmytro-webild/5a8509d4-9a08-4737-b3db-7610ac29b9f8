@@ -11,6 +11,7 @@ import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCar
 import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FooterBase from '@/components/sections/footer/FooterBase';
 import NavbarStyleApple from "@/components/navbar/NavbarStyleApple/NavbarStyleApple";
+import NavbarStyleFullscreen from "@/components/navbar/NavbarStyleFullscreen/NavbarStyleFullscreen";
 
 export default function SitePage() {
   return (
@@ -27,7 +28,7 @@ export default function SitePage() {
       headingFontWeight="bold"
     >
       <div id="nav" data-section="nav">
-        <NavbarStyleApple 
+        <NavbarStyleFullscreen 
           navItems={[{"name":"Hero","id":"hero-section"},{"name":"About","id":"about-section"},{"name":"Feature","id":"features-section"},{"name":"Team","id":"team-section"},{"name":"Testimonial","id":"testimonial-section"},{"name":"Contact","id":"contact-section"}]} 
           button={{"text":"Join Us"}} 
           brandName="TechConnect Club" 
