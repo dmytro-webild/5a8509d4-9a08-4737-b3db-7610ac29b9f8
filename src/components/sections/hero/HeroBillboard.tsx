@@ -67,6 +67,7 @@ interface HeroBillboardProps {
   marqueeImageClassName?: string;
   marqueeTextClassName?: string;
   marqueeIconClassName?: string;
+  backgroundImageUrl?: string;
 }
 
 const HeroBillboard = ({
