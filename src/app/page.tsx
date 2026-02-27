@@ -47,7 +47,7 @@ export default function SitePage() {
           imageSrc="http://img.b2bpic.net/free-photo/business-leader-professional-office-strategizing-development-success_482257-124038.jpg" 
           imageAlt="Tech club members collaborating" 
           mediaAnimation="slide-up" 
-          marqueeItems={[{"text":"Hackathons","icon":Code},{"text":"Workshops","icon":BookOpen},{"text":"Mentorship","icon":UserCheck},{"text":"Projects","icon":Layers}]} 
+          marqueeItems={[{type: 'text-icon', text:"Hackathons", icon:Code}, {type: 'text-icon', text:"Workshops", icon:BookOpen}, {type: 'text-icon', text:"Mentorship", icon:UserCheck}, {type: 'text-icon', text:"Projects", icon:Layers}]} 
           marqueeSpeed={40} 
           showMarqueeCard={true} 
           ariaLabel="Hero section" 
@@ -141,7 +141,6 @@ export default function SitePage() {
           titleClassName="text-3xl font-bold text-gray-900 mb-4" 
           descriptionClassName="text-lg text-gray-600 mb-6" 
           buttonClassName="bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-6 rounded-lg transition duration-300 ease-in-out transform hover:scale-105" 
-          buttonTextClassName="text-base" 
         />
       </div>
       <div id="footer-section" data-section="footer-section">
