@@ -1,6 +1,6 @@
 "use client";
 
-import { Code, Layers, Sparkles, UserCheck, Users } from "lucide-react";
+import { BookOpen, Code, Layers, Sparkles, UserCheck, Users } from "lucide-react";
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
 import HeroBillboard from '@/components/sections/hero/HeroBillboard';
@@ -47,7 +47,7 @@ export default function SitePage() {
           imageSrc="http://img.b2bpic.net/free-photo/business-leader-professional-office-strategizing-development-success_482257-124038.jpg" 
           imageAlt="Tech club members collaborating" 
           mediaAnimation="slide-up" 
-          marqueeItems={[{"text":"Hackathons","icon":"Code"},{"text":"Workshops","icon":"BookOpen"},{"text":"Mentorship","icon":"UserCheck"},{"text":"Projects","icon":"Layers"}]} 
+          marqueeItems={[{"text":"Hackathons","icon":Code},{"text":"Workshops","icon":BookOpen},{"text":"Mentorship","icon":UserCheck},{"text":"Projects","icon":Layers}]} 
           marqueeSpeed={40} 
           showMarqueeCard={true} 
           ariaLabel="Hero section" 
